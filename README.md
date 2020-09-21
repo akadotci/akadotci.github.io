@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## aka.ci
 
-You can use the [editor on GitHub](https://github.com/akadotci/akadotci.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+aka.ci makes your url short and easy to remember.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### add
 
-### Markdown
+add file -> create new file -> enter file name: YOUR_SHORT_SUFFIX/index.html
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-> copy and modify template code:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```html
+<html>
+<head>
+	<title>aka.ci</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body style="width:100%; text-align:center;">
+	<div style="padding:10%;">
+		<p>Redirecting to <a href="REPLACE_THIS_REPLACE_THIS">REPLACE_THIS_REPLACE_THIS</a> </p>
+	</div>
+<script language="javascript" type="text/javascript">
+      setTimeout(function f(){
+        window.location.href="REPLACE_THIS_REPLACE_THIS"; 
+      }, 10);
+</script>
+</body>
+</html>
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akadotci/akadotci.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
