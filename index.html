@@ -141,16 +141,36 @@
             <a href="#" onclick="to('https://www.diffchecker.com/diff')" class="link-dark rounded">Code Diff</a>
           </li>
           <li>
-            <a href="#" onclick="to('https://www.wakatool.com/timestamp')" class="link-dark rounded">时间戳</a>
-          </li>
-          <li>
             <a href="#" onclick="to('https://regexr.com/')" class="link-dark rounded">正则表达式</a>
           </li>
           <li>
+            <a href="#" onclick="to('https://www.wakatool.com/timestamp')" class="link-dark rounded">时间戳</a>
+          </li>
+          <li>
+            <a href="#" onclick="to('https://tool.oschina.net/encode')" class="link-dark rounded">编码解码</a>
+          </li>
+          <li>
+            <a href="#" onclick="to('https://tool.oschina.net/encrypt')" class="link-dark rounded">加密解密</a>
+          </li>
+          <li>
+            <a href="#" onclick="to('https://tool.oschina.net/hexconvert')" class="link-dark rounded">进制转换</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#designer-collapse">
+        设计工具
+      </button>
+      <div class="collapse show" id="designer-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li>
             <a href="#" onclick="to('https://htmlcolorcodes.com/')" class="link-dark rounded">调色板</a>
           </li>
-          
-          
+          <li>
+            <a href="#" onclick="to('https://cli.im/')" class="link-dark rounded">二维码生成</a>
+          </li>
         </ul>
       </div>
     </li>
@@ -232,6 +252,13 @@
     function jump(url) {
       window.open(url, '_blank');
     }
+
+    function isMobile() {
+      if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        alert('检测到您可能在移动设备上浏览，目前网站尚未适配，为获得更好的体验，建议您使用电脑访问网站 https://aka.ci ');
+      }
+    }
+    
 
   </script>
   
